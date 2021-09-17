@@ -1,0 +1,114 @@
+body {
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dcdce0;
+}
+
+div {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    background-color: #777F84;
+}
+
+
+/* Sticky main nav bar */
+.sticky {
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+
+li {
+    padding: 20px 20px 20px 0px;
+}
+
+.nav-right {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 550px) {
+    .nav-link {
+        font-size: .8em;
+        padding: 0;
+    }
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #8F3B75;
+    margin-bottom: 20px;
+}
+
+
+.grid-layout {
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    margin: 20px;
+}
+
+.box {
+    border: 0px solid;
+    border-radius: 2px;
+    padding: 130px;
+    text-align: center;
+    background-color: #8F3B75;
+    box-shadow: 1px 1px 1px 1px rgb(143, 130, 130);
+}
+
+footer {
+    background-color: #777F84;
+    padding: 20px;
+    text-align: center;
+}
+
+.grey {
+    background-color: #777F84;
+}
+
+.blue {
+    background-color: #005CA5;
+}
+
+.green {
+    background-color: #A2BC3A;
+}
+
+.aqua {
+    background-color: #22A7A6;
+}
+
+.red {
+    background-color: #C93155;
+}
+
+.lightblue {
+    background-color: #4AB0E3;
+}
+
+.darkblue {
+    background-color: #000D4D;
+}
+
+.purple {
+    background-color: #8F3B75;
+}
